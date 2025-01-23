@@ -54,4 +54,8 @@ public class CarService {
         car.setRented(false);
         System.out.println("Car returned.");
     }
+
+    public List<Car> getCars() {
+        return cars;
+    }
 }
