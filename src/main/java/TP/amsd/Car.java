@@ -6,7 +6,7 @@ public class Car {
     private double price;
     private boolean isRented;
 
-    // Constructeur
+    // Constructeurr
     public Car(String plateNumber, String brand, double price, boolean isRented) {
         this.plateNumber = plateNumber;
         this.brand = brand;
