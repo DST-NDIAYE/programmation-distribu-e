@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     name: build
     steps:
-      - name: make gradlew executable
+      - name: make gradlew eecutable
         run: chmod +x ./gradlew
       - uses: actions/checkout@v2
       - name: Set up JDK 23
