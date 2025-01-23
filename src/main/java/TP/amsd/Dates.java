@@ -1,15 +1,22 @@
 package TP.amsd;
 
 public class Dates {
-    String begin ;
-    String end ;
+    private String begin;
+    private String end;
 
-    public String getBeing() {
+    // Constructeur
+    public Dates(String begin, String end) {
+        this.begin = begin;
+        this.end = end;
+    }
+
+    // Getters et Setters
+    public String getBegin() {
         return begin;
     }
 
-    public void setBeing(String being) {
-        this.begin = being;
+    public void setBegin(String begin) {
+        this.begin = begin;
     }
 
     public String getEnd() {
@@ -18,12 +25,5 @@ public class Dates {
 
     public void setEnd(String end) {
         this.end = end;
-    }
-
-    public String toString(){
-        return "Dates{" +
-                "begin='" + begin + '\'' +
-                ", end='" + end + '\'' +
-                '}';
     }
 }
