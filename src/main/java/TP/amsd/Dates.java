@@ -26,4 +26,11 @@ public class Dates {
     public void setEnd(String end) {
         this.end = end;
     }
+
+    public String toString() {
+        return "Dates{" +
+                "begin='" + begin + '\'' +
+                ", end='" + end + '\'' +
+                '}';
+    }
 }
